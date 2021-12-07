@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    background-color: #000;
+    font-family: 'Lato', sans-serif;
+    
+}
+.photo{
+    float: left;
+    width: 40%;
+    padding: auto;
+}
+.main{
+    float: left;
+    width: 60%;
+    padding: 20px;
+    color: grey;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(209, 137, 55);
+}
+p{
+    font-size: 18px;
+    text-align: justify;
+}
+p.solid{
+    outline-style: solid;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    color: rgb(209, 137, 55);
+}
+p.footer{
+    text-align: center;
+}
+li{
+    font-size: 18px;
+}
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small 
+screens */
+@media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
+footer{
+    color: grey;
+    text-align: center;
+}
+a:link{
+    color: rgb(209, 137, 55);
+}
+a:visited{
+    color: indigo;
+}
+a:hover{
+    color: rgb(206, 106, 24);
+}
